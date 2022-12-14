@@ -1,0 +1,29 @@
+body header {
+  margin-top: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 27%, rgb(0, 212, 255) 100%);
+}
+body header figure {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 3vh;
+}
+body header figure img {
+  height: 40px;
+  width: 40px;
+}
+body header nav {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+body header nav ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  list-style-type: none;
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
